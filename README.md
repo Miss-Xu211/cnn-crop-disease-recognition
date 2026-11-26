@@ -70,7 +70,9 @@ data/plantvillage_5cls/
 
 数据来源：[GVJahnavi/PlantVillage_dataset](https://huggingface.co/datasets/GVJahnavi/PlantVillage_dataset)。
 
-脚本默认使用 `https://hf-mirror.com` 镜像，如需官方地址可设置环境变量 `HF_ENDPOINT=https://huggingface.co`。数据集许可请以 HuggingFace 页面为准；本仓库只提供下载与整理脚本，不再分发图片。
+脚本默认使用 `https://hf-mirror.com` 镜像，如需官方地址可设置环境变量 `HF_ENDPOINT=https://huggingface.co` 。
+
+> **数据说明**：本仓库仅提供数据下载与整理脚本，不分发数据集图片或 parquet 文件。该数据集在 HuggingFace 页面未明确标注许可证，版权归原作者所有；使用前请自行确认原始 PlantVillage 数据集的授权条款。
 
 ## 训练与评估
 
@@ -112,3 +114,4 @@ python train_compare.py --batch-size 64 --lr 5e-4
 
 - Hughes, D. P., & Salathé, M. (2015). An open access repository of images on plant health to enable the development of mobile disease diagnostics. arXiv:1511.08060.
 - [PlantVillage dataset on HuggingFace](https://huggingface.co/datasets/GVJahnavi/PlantVillage_dataset)
+- Woo, S., Park, J., Lee, J. Y., & Kweon, I. S. (2018). CBAM: Convolutional Block Attention Module. In Proceedings of the European Conference on Computer Vision (ECCV).
