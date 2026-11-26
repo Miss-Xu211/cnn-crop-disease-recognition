@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 虚拟环境
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# 数据集：体积大，由 prepare_data.py 重新生成
+data/
+
+# 训练权重：可重新训练得到
+outputs/*.pth
+
+# 压缩包与系统文件
+*.rar
+.DS_Store
+Thumbs.db
